@@ -1,0 +1,38 @@
+h1 {
+  font-family: monospace;
+  color: burlywood;
+  text-align: center;
+  font-size: 56px;
+}
+
+p {
+  font-family: monospace;
+  color: black;
+  text-align: center;
+  font-size: 18px;
+}
+
+img {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 30px;
+}
+
+.link {
+  text-decoration: none;
+  color: brown;
+}
+
+.link:hover {
+  color: blueviolet;
+  cursor: pointer;
+  text-decoration: underline;
+}
